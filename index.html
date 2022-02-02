@@ -1,0 +1,19 @@
+<html>
+    <head>
+        <style>
+            .inputField {
+                width:100px; 
+                display:inline-block;
+            }
+        </style>
+    </head>
+    <body>
+        <h2>Alien Invasion</h2>
+
+        <form name="inputform" action="http://localhost:8080/runSimulation" method="post">
+            <div class="inputField">Map file path: </div><input type="text" name="map_file_path"><br><br>
+            <div class="inputField">Num aliens: </div><input type="text" name="num_aliens"><br><br>
+            <input type="submit" value="Submit">
+        </form>
+    </body>
+</html>

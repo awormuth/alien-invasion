@@ -1,0 +1,21 @@
+Albuquerque
+SanFrancisco west=SanJose south=LosAngeles
+LosAngeles south=SanDiego west=Riverside
+NewYork
+Riverside east=LosAngeles south=SanDiego north=SanFrancisco
+Nashville
+SanJose west=SanFrancisco
+Dallas
+Austin north=Tulsa
+Phoenix
+SanDiego
+Tulsa south=Austin west=OklahomaCity
+Boulder east=Denver west=Seattle
+Portland
+LasVegas
+Baltimore
+Denver west=Boulder
+Boston
+Seattle south=SanFrancisco
+Chicago
+Houston
